@@ -1,0 +1,188 @@
+body{
+    font-family: helvetica, arial;
+    display:flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    background-image: linear-gradient(to right, #488185 , #4da4aa ,#27BAC4, #15dbe9 );
+    height: 160px;
+    margin: 10px 20px 0px 20px;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.cabecalho .logo{
+    float: left;
+}
+
+.cabecalho .logo .imagem{
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+header .menu{
+    font-size:  22px;
+    margin-top: 30px;
+    padding: 25px 40px 0px 25px;
+    float: right;
+}
+
+header .menu a{
+    padding: 25px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px #111111;
+}
+
+header .menu a:hover{
+    background-color: #fff;
+    color: #27BAC4;
+    padding: 50px;
+    border-radius: 25px;
+} 
+
+.inicio{
+    background-color: #e4e4d9;
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    gap: none;
+}
+
+.inicio .titulo{
+    color: #ac6449;
+    text-align: center;
+}
+
+.inicio .subtitulo{
+    color: #cf896f;
+    text-align: center;
+}
+
+main.container{
+    padding: 10px 80px 0px 80px;
+    gap:none;
+}
+
+div.formulario{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+form{
+    text-align: center;
+    align-items: center;
+}
+
+form .btn{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+form .botoes{
+    margin: 0 10px;
+}
+
+form .botoes .end{
+    font-size: 18px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;;
+}
+
+form .comentario{
+    margin: 0 0 0 7px;
+    border-radius: 10px;
+    width: auto;
+}
+
+fieldset{
+    border-radius: 10px;
+    width: 800px;
+}
+
+legend.nome{
+    color:#000000;
+    font-size: 18px;
+}
+
+h3.pergunta{
+    color:#ac6449;
+    padding: 0 10px;
+}
+
+footer{
+    clear: both;
+    background-image: linear-gradient(to right, #488185 , #4da4aa ,#27BAC4, #15dbe9 );
+    height: 80px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0px 20px 0px 20px;
+    padding: 20px 10px
+}
+
+footer .rodape{
+    float: left;
+}
+
+footer .rodape .autor{
+    align-items: left;
+    color:#fff;
+    text-align: center;
+    padding: 0px 20px 20px 60px;
+    text-shadow: 2px 1px 1px #111111;
+}
+
+footer .menu{
+    float: right;
+}
+
+footer .menu .redes{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    text-align: center;
+    gap: 10px;
+    padding-right: 60px;
+}
+
+.redes .logo-face{
+    height: 50px;
+    width: 50px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.redes .logo-twitter{
+    height: 50px;
+    width: 50px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.redes .logo-insta{
+    height: 50px;
+    width: 50px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.redes .logo-in{
+    height: 50px;
+    width: 50px;
+    gap: 10px;
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
